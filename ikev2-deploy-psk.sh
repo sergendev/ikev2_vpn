@@ -7,7 +7,7 @@ if ! [ -x "$(command -v lsb_release)" ]; then
 	bail_out
 fi
 
-if [ $(lsb_release -i -s) != "Ubuntu" ] || [ $(lsb_release -r -s) != "16.04" ]; then 
+if [ $(lsb_release -i -s) != "Ubuntu" ] || [ $(lsb_release -r -s) != "18.04" ]; then 
 	bail_out
 fi
 
